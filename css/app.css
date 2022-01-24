@@ -423,6 +423,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+body {
+  background-image: url('../img/pattern.png');
+}
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
