@@ -45,3 +45,13 @@
         font-family: "TrebuchetMS";
     }
 }
+
+@layer components {
+    
+    .menu-items {
+        @apply ml-5 mr-5 tracking-wider flex-none
+    }
+    .menu-item-a {
+        @apply block transition duration-200 hover:text-azul-claro transform hover:scale-125
+    }
+}

@@ -18,3 +18,7 @@ src/input.css
 @tailwind utilities;
 
 #npx tailwindcss -i ./src/app.css -o ./css/app.css --watch
+
+https://nekocalc.com/es/px-a-rem-conversor
+1 pixel -> 0.063 rem
+1 rem -> 16 px
