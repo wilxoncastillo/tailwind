@@ -2,6 +2,10 @@ module.exports = {
   content: ["*.{html,js}"],
   theme: {
     extend: {
+      screens: {
+        'xs': { 'max': '640px' }
+      },
+
       colors: {
         "azul-claro": "#37bcf9",
         "azul-osucro": "#03370b9"
