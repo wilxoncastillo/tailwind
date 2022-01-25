@@ -589,6 +589,14 @@ body {
   margin-right: auto;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -603,22 +611,6 @@ body {
 
 .mr-16 {
   margin-right: 4rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
 }
 
 .mr-6 {
@@ -639,6 +631,14 @@ body {
 
 .w-64 {
   width: 16rem;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .flex-1 {
