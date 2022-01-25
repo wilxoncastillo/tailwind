@@ -765,6 +765,10 @@ body {
   transition-duration: 75ms;
 }
 
+.duration-100 {
+  transition-duration: 100ms;
+}
+
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -811,4 +815,29 @@ body {
 .group:hover .group-hover\:animate-from-bellow {
   -webkit-animation: fromBellow 500ms linear;
           animation: fromBellow 500ms linear;
+}
+
+@-webkit-keyframes fromRight {
+  0% {
+    transform: traslateX(200%);
+  }
+
+  100% {
+    transform: traslateX(0%);
+  }
+}
+
+@keyframes fromRight {
+  0% {
+    transform: traslateX(200%);
+  }
+
+  100% {
+    transform: traslateX(0%);
+  }
+}
+
+.group:hover .group-hover\:animate-from-right {
+  -webkit-animation: fromRight 300ms linear;
+          animation: fromRight 300ms linear;
 }

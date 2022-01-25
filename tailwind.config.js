@@ -9,7 +9,8 @@ module.exports = {
 
       animation: {
         'spin-low': "spin 2s linear infinite",
-        'from-bellow': 'fromBellow 500ms linear'
+        'from-bellow': 'fromBellow 500ms linear',
+        'from-right': 'fromRight 300ms linear'
       },
 
       keyframes: {
@@ -17,6 +18,11 @@ module.exports = {
           "0%": { transform: 'traslateY(0%)' },
           "50%": { transform: 'traslateY(50%)' },
           "100%": { transform: 'traslateY(0%)' },
+        },
+
+        fromRight: {
+          "0%": { transform: 'traslateX(200%)' },
+          "100%": { transform: 'traslateX(0%)' },
         }
       }
     },
