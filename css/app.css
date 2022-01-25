@@ -558,6 +558,12 @@ body {
   letter-spacing: 0.05em;
 }
 
+@media (max-width: 768px) {
+  .menu-items {
+    flex: 1 1 0%;
+  }
+}
+
 .menu-item-a {
   display: block;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -674,10 +680,6 @@ body {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -688,11 +690,6 @@ body {
 
 .border-8 {
   border-width: 8px;
-}
-
-.border-red-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(185 28 28 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -851,45 +848,39 @@ body {
           animation: fromRight 300ms linear;
 }
 
-@media (min-width: 640px) {
-  .sm\:border-yellow-400 {
-    --tw-border-opacity: 1;
-    border-color: rgb(250 204 21 / var(--tw-border-opacity));
-  }
-}
-
 @media (min-width: 768px) {
-  .md\:border-green-800 {
-    --tw-border-opacity: 1;
-    border-color: rgb(22 101 52 / var(--tw-border-opacity));
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:border-emerald-400 {
-    --tw-border-opacity: 1;
-    border-color: rgb(52 211 153 / var(--tw-border-opacity));
+@media (max-width: 768px) {
+  .xs\:m-0 {
+    margin: 0px;
   }
-}
 
-@media (min-width: 1280px) {
-  .xl\:border-pink-700 {
-    --tw-border-opacity: 1;
-    border-color: rgb(190 24 93 / var(--tw-border-opacity));
+  .xs\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
-}
 
-@media (min-width: 1536px) {
-  .\32xl\:border-x-blue-700 {
-    --tw-border-opacity: 1;
-    border-left-color: rgb(29 78 216 / var(--tw-border-opacity));
-    border-right-color: rgb(29 78 216 / var(--tw-border-opacity));
+  .xs\:mr-0 {
+    margin-right: 0px;
   }
-}
 
-@media (max-width: 640px) {
-  .xs\:border-gray-700 {
-    --tw-border-opacity: 1;
-    border-color: rgb(55 65 81 / var(--tw-border-opacity));
+  .xs\:h-36 {
+    height: 9rem;
+  }
+
+  .xs\:flex-col {
+    flex-direction: column;
+  }
+
+  .xs\:text-center {
+    text-align: center;
   }
 }

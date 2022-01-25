@@ -49,7 +49,12 @@
 @layer components {
     
     .menu-items {
-        @apply ml-5 mr-5 tracking-wider flex-none
+        @apply 
+            ml-5 
+            mr-5 
+            tracking-wider 
+            flex-none
+            xs:flex-1;
     }
     .menu-item-a {
         @apply block transition duration-200 hover:text-azul-claro transform hover:scale-125
