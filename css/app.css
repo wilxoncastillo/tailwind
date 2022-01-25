@@ -641,6 +641,10 @@ body {
   flex: 1 1 0%;
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 @-webkit-keyframes spin {
   to {
     transform: rotate(360deg);
@@ -774,4 +778,37 @@ body {
 .group:hover .group-hover\:animate-none {
   -webkit-animation: none;
           animation: none;
+}
+
+@-webkit-keyframes fromBellow {
+  0% {
+    transform: traslateY(0%);
+  }
+
+  50% {
+    transform: traslateY(50%);
+  }
+
+  100% {
+    transform: traslateY(0%);
+  }
+}
+
+@keyframes fromBellow {
+  0% {
+    transform: traslateY(0%);
+  }
+
+  50% {
+    transform: traslateY(50%);
+  }
+
+  100% {
+    transform: traslateY(0%);
+  }
+}
+
+.group:hover .group-hover\:animate-from-bellow {
+  -webkit-animation: fromBellow 500ms linear;
+          animation: fromBellow 500ms linear;
 }
