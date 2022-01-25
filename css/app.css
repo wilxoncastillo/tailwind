@@ -689,6 +689,31 @@ body {
           animation: spin 2s linear infinite;
 }
 
+@-webkit-keyframes backBanner {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: -300px -200px;
+  }
+}
+
+@keyframes backBanner {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: -300px -200px;
+  }
+}
+
+.animate-bg-banner {
+  -webkit-animation: backBanner 10s linear;
+          animation: backBanner 10s linear;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -742,7 +767,7 @@ body {
 }
 
 .bg-banner-position {
-  background-position: -300px;
+  background-position: -300px -200px;
 }
 
 .pt-0\.5 {

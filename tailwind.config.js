@@ -11,7 +11,7 @@ module.exports = {
       }),
 
       backgroundPosition: {
-        'banner-position': "-300px"
+        'banner-position': "-300px -200px"
       },
 
       colors: {
@@ -22,7 +22,8 @@ module.exports = {
       animation: {
         'spin-low': "spin 2s linear infinite",
         'from-bellow': 'fromBellow 500ms linear',
-        'from-right': 'fromRight 300ms linear'
+        'from-right': 'fromRight 300ms linear',
+        'bg-banner': 'backBanner 10s linear'
       },
 
       keyframes: {
@@ -35,7 +36,13 @@ module.exports = {
         fromRight: {
           "0%": { transform: 'traslateX(200%)' },
           "100%": { transform: 'traslateX(0%)' },
+        },
+
+        backBanner: {
+          '0%': { 'backgroundPosition': '0px 0px' },
+          '100%': { 'backgroundPosition': '-300px -200px'}
         }
+
       }
     },
   },
