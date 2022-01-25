@@ -6,6 +6,14 @@ module.exports = {
         'xs': { 'max': '768px' }
       },
 
+      backgroundImage: theme =>({
+        'banner': "url('../img/bakbaner.png')"
+      }),
+
+      backgroundPosition: {
+        'banner-position': "-300px"
+      },
+
       colors: {
         "azul-claro": "#37bcf9",
         "azul-osucro": "#03370b9"
