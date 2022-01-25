@@ -582,6 +582,11 @@ body {
   color: rgb(55 188 249 / var(--tw-text-opacity));
 }
 
+.text-banner {
+  font-family: "BebasNeue";
+  text-shadow: 2px 2px 1px black;
+}
+
 .float-right {
   float: right;
 }
@@ -592,6 +597,10 @@ body {
 
 .m-5 {
   margin: 1.25rem;
+}
+
+.m-7 {
+  margin: 1.75rem;
 }
 
 .mx-auto {
@@ -769,6 +778,10 @@ body {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .tracking-wider {
