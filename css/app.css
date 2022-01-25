@@ -629,20 +629,33 @@ body {
   height: 5rem;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
 .w-11\/12 {
   width: 91.666667%;
 }
 
+.w-64 {
+  width: 16rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
+}
+
+@-webkit-keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-low {
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
 }
 
 .cursor-pointer {
@@ -756,4 +769,9 @@ body {
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:animate-none {
+  -webkit-animation: none;
+          animation: none;
 }
