@@ -22,3 +22,6 @@ src/input.css
 https://nekocalc.com/es/px-a-rem-conversor
 1 pixel -> 0.063 rem
 1 rem -> 16 px
+
+
+https://www.fontsquirrel.com/fonts/web-symbols
