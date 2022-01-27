@@ -1118,6 +1118,31 @@ body {
           animation: showCardTitle 400ms linear;
 }
 
+@-webkit-keyframes showCardBody {
+  from {
+    transform: traslateX(-300%);
+  }
+
+  to {
+    transform: traslateX(0%);
+  }
+}
+
+@keyframes showCardBody {
+  from {
+    transform: traslateX(-300%);
+  }
+
+  to {
+    transform: traslateX(0%);
+  }
+}
+
+.group:hover .group-hover\:animate-show-card-body {
+  -webkit-animation: showCardBody 400ms linear;
+          animation: showCardBody 400ms linear;
+}
+
 .group:hover .group-hover\:text-azul-claro {
   --tw-text-opacity: 1;
   color: rgb(55 188 249 / var(--tw-text-opacity));

@@ -25,3 +25,5 @@ https://nekocalc.com/es/px-a-rem-conversor
 
 
 https://www.fontsquirrel.com/fonts/web-symbols
+
+25, 33,34,35
