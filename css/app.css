@@ -714,6 +714,63 @@ body {
           animation: backBanner 10s linear;
 }
 
+@-webkit-keyframes showBannerText {
+  0% {
+    transform: traslateX(-600%) scale(5,5);
+    opacity: 1;
+  }
+
+  50% {
+    transform: traslateX(600%) scale(5,5);
+    opacity: 1;
+  }
+
+  75% {
+    transform: traslateX(-600%) scale(5,5);
+    text-shadow: none;
+    color: transparent;
+    opacity: 0;
+  }
+
+  100% {
+    transform: traslateX(-0%) scale(1,1);
+    text-shadow: 2px 2px 1px black;
+    color: while;
+    opacity: 1;
+  }
+}
+
+@keyframes showBannerText {
+  0% {
+    transform: traslateX(-600%) scale(5,5);
+    opacity: 1;
+  }
+
+  50% {
+    transform: traslateX(600%) scale(5,5);
+    opacity: 1;
+  }
+
+  75% {
+    transform: traslateX(-600%) scale(5,5);
+    text-shadow: none;
+    color: transparent;
+    opacity: 0;
+  }
+
+  100% {
+    transform: traslateX(-0%) scale(1,1);
+    text-shadow: 2px 2px 1px black;
+    color: while;
+    opacity: 1;
+  }
+}
+
+.animate-text-banner {
+  -webkit-animation: showBannerText 10s linear;
+          animation: showBannerText 10s linear;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }

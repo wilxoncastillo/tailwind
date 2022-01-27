@@ -23,7 +23,8 @@ module.exports = {
         'spin-low': "spin 2s linear infinite",
         'from-bellow': 'fromBellow 500ms linear',
         'from-right': 'fromRight 300ms linear',
-        'bg-banner': 'backBanner 10s linear'
+        'bg-banner': 'backBanner 10s linear',
+        'text-banner': 'showBannerText 10s linear'
       },
 
       keyframes: {
@@ -41,6 +42,32 @@ module.exports = {
         backBanner: {
           '0%': { 'backgroundPosition': '0px 0px' },
           '100%': { 'backgroundPosition': '-300px -200px'}
+        },
+
+        showBannerText: {
+          '0%': { 
+            transform: "traslateX(-600%) scale(5,5)",
+            opacity: 1
+          },
+
+          '50%': { 
+            transform: "traslateX(600%) scale(5,5)",
+            opacity: 1
+          },
+
+          '75%': { 
+            transform: "traslateX(-600%) scale(5,5)",
+            'text-shadow': "none",
+            color: 'transparent',
+            opacity: 0
+          },
+
+          '100%': { 
+            transform: "traslateX(-0%) scale(1,1)",
+            'text-shadow': "2px 2px 1px black",
+            color: 'while',
+            opacity: 1
+          }
         }
 
       }
