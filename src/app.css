@@ -54,14 +54,41 @@
             mr-5 
             tracking-wider 
             flex-none
-            xs:flex-1;
+            xs:flex-1
+        ;
     }
     .menu-item-a {
-        @apply block transition duration-200 hover:text-azul-claro transform hover:scale-125
+        @apply 
+            block 
+            transition
+            duration-200 
+            hover:text-azul-claro 
+            transform hover:scale-125
+        ;
     }
 
     .text-banner {
         font-family: "BebasNeue";
         text-shadow: 2px 2px 1px black;
+    }
+
+    /* style card */
+    .card {
+        @apply
+            flex-1
+            h-80
+            border-2
+            border-gray-200
+            shadow-md
+            bg-white
+            overflow-hidden
+            m-5
+            mt-10
+            p-5
+            mt-10
+            cursor-pointer
+            transition
+            duration-300
+        ;
     }
 }
