@@ -105,5 +105,18 @@
         ;
     }
 
+    .card-title {
+        @apply
+            w-full
+            h-12
+            text-xl
+            font-bold
+            text-center
+            text-azul-claro
+            transition
+            duration-300
+        ;
+    }
+
     /* fin style card */
 }

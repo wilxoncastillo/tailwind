@@ -16,7 +16,7 @@ module.exports = {
 
       colors: {
         "azul-claro": "#37bcf9",
-        "azul-osucro": "#03370b9"
+        "azul-oscuro": "#03370b9"
       },
 
       animation: {
