@@ -76,7 +76,8 @@
     .card {
         @apply
             flex-1
-            h-80
+            md:h-60
+            lg:h-80
             border-2
             border-gray-200
             shadow-md
@@ -121,6 +122,13 @@
             text-azul-claro
             transition
             duration-300
+
+            xs:text-sm
+            sm:text-sm
+            md:text-sm
+            lg:text-lg
+
+
         ;
     }
 
@@ -131,7 +139,16 @@
             text-blue-900
             text-base
             transition
-            duration-300 
+            duration-300
+
+           
+
+            xs:hidden
+            sm:hidden
+            md:hidden
+            lg:block
+            lg:text-sm
+            lg:mt-1.5
         ;
 
     }
