@@ -84,10 +84,14 @@
             overflow-hidden
             m-2
             mt-10
-            p-5
+            pt-5
+            pl-2
+            pr-2
+            pb-2
             cursor-pointer
             transition
             duration-300
+            hover:bg-black
         ;
     }
 
