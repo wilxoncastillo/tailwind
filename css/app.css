@@ -994,6 +994,10 @@ body {
     margin-right: 0px;
   }
 
+  .xs\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .xs\:h-36 {
     height: 9rem;
   }
@@ -1004,5 +1008,10 @@ body {
 
   .xs\:text-center {
     text-align: center;
+  }
+
+  .xs\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
