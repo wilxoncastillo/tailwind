@@ -1093,9 +1093,29 @@ body {
           animation: showCardIcon 300ms linear;
 }
 
-.group:hover .group-hover\:text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
+@-webkit-keyframes showCardTitle {
+  from {
+    transform: traslateY(-300%);
+  }
+
+  to {
+    transform: traslateY(0%);
+  }
+}
+
+@keyframes showCardTitle {
+  from {
+    transform: traslateY(-300%);
+  }
+
+  to {
+    transform: traslateY(0%);
+  }
+}
+
+.group:hover .group-hover\:animate-show-card-title {
+  -webkit-animation: showCardTitle 400ms linear;
+          animation: showCardTitle 400ms linear;
 }
 
 .group:hover .group-hover\:text-azul-claro {

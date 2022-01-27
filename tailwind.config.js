@@ -26,6 +26,7 @@ module.exports = {
         'bg-banner': 'backBanner 10s linear',
         'text-banner': 'showBannerText 10s linear',
         'show-card-icon': 'showCardIcon 300ms linear',
+        'show-card-title': 'showCardTitle 400ms linear',
       },
 
       keyframes: {
@@ -74,6 +75,16 @@ module.exports = {
         showCardIcon: {
           'from': {
             transform: 'traslateY(-200%)'
+          },
+
+          'to': {
+              transform: 'traslateY(0%)'
+          }
+        },
+
+        showCardTitle: {
+          'from': {
+            transform: 'traslateY(-300%)'
           },
 
           'to': {
