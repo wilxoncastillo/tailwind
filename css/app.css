@@ -741,6 +741,24 @@ body {
   }
 }
 
+.articles-header {
+  font-family: "BebasNeue";
+  background: url('../img/pxgray.png'), white;
+  display: block;
+  height: 5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  padding-top: 1.25rem;
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  --tw-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+  --tw-shadow-colored: 0px 1px 0px var(--tw-shadow-color), 1px 2px 0px var(--tw-shadow-color), 2px 3px 0px var(--tw-shadow-color), 3px 4px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 /* fin style card */
 
 .order-2 {
@@ -800,12 +818,12 @@ body {
   margin-right: 1.5rem;
 }
 
-.mr-10 {
-  margin-right: 2.5rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
 }
 
 .block {
@@ -822,12 +840,6 @@ body {
 
 .h-28 {
   height: 7rem;
-}
-
-.h-min {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
 }
 
 .min-h-full {
@@ -997,10 +1009,6 @@ body {
   border-width: 4px;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -1009,11 +1017,6 @@ body {
 .border-red-500 {
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
-.border-blue-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
 .bg-black {

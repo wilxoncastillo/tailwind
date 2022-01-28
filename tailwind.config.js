@@ -6,6 +6,10 @@ module.exports = {
         'xs': { 'max': '768px' }
       },
 
+      boxShadow: {
+        header3D: "0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f"
+      },
+
       backgroundImage: theme =>({
         'banner': "url('../img/bakbaner.png')"
       }),
