@@ -743,6 +743,14 @@ body {
 
 /* fin style card */
 
+.order-2 {
+  order: 2;
+}
+
+.order-1 {
+  order: 1;
+}
+
 .float-right {
   float: right;
 }
@@ -792,6 +800,14 @@ body {
   margin-right: 1.5rem;
 }
 
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -808,6 +824,16 @@ body {
   height: 7rem;
 }
 
+.h-min {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
 .w-11\/12 {
   width: 91.666667%;
 }
@@ -820,8 +846,20 @@ body {
   width: 100%;
 }
 
+.w-72 {
+  width: 18rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-none {
+  flex: none;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
 
 .transform {
@@ -955,9 +993,27 @@ body {
   border-width: 8px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
+.border {
+  border-width: 1px;
+}
+
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
+.border-blue-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
 .bg-black {
