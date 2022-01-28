@@ -824,6 +824,24 @@ body {
   font-weight: 400;
 }
 
+.aside-header {
+  font-family: "BebasNeue";
+  background: url('../img/pxgray.png'), white;
+  margin-bottom: 0.875rem;
+  display: block;
+  height: 2.75rem;
+  border-width: 1px;
+  padding-left: 0.875rem;
+  padding-top: 0.25rem;
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  letter-spacing: 0.1em;
+  --tw-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+  --tw-shadow-colored: 0px 1px 0px var(--tw-shadow-color), 1px 2px 0px var(--tw-shadow-color), 2px 3px 0px var(--tw-shadow-color), 3px 4px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 /* fin style card */
 
 .order-2 {
@@ -889,14 +907,6 @@ body {
 
 .mr-10 {
   margin-right: 2.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
 }
 
 .block {
@@ -1078,18 +1088,9 @@ body {
   border-width: 8px;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-red-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -1139,10 +1140,6 @@ body {
   text-align: center;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1156,11 +1153,6 @@ body {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-normal {
