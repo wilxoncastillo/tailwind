@@ -244,6 +244,18 @@
         ;
     }
 
+    .aside-box {
+        @apply 
+            w-10/12 
+            h-60 
+            mx-auto 
+            mt-5 
+            mb-7 
+            pt-1 
+            shadow-box
+        ;
+    }
+
 
     /* fin style card */
 }
