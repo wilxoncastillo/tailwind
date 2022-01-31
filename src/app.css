@@ -409,6 +409,28 @@
 
     }
 
+    .browsers {
+        @apply
+        flex 
+        flex-row   
+        mb-7
+        space-x-5
+        ;
+    }
+
+    .browsers a {
+        @apply
+        flex-1    
+        mb-1.5
+        ;
+    }
+
+    .browsers a img {
+        @apply
+            w-11
+        ;
+    }
+
 
     /* fin style card */
 }
