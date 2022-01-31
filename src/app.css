@@ -256,6 +256,39 @@
         ;
     }
 
+    .login-icon {
+        @apply
+            symbol 
+            text-center
+            absolute 
+            mt-1 
+            ml-8 
+            h-8
+        ;
+    }
+
+
+    .login-input {
+        @apply
+            block 
+            mx-auto 
+            mt-5 
+            w-10/12 h-8 
+            border 
+            border-gray-300 
+            shadow-inner 
+            pl-7 
+            ml-7  
+            rounded-md 
+            text-gray-500 
+            transition 
+            duration-300 
+            outline-none 
+            focus:outline-none 
+            focus:text-gray-600
+        ;
+    }
+
 
     /* fin style card */
 }
