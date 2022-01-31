@@ -204,6 +204,7 @@
             block 
             text-2xl 
             m-1
+            sm:text-lg
         ;
     }
 
@@ -246,13 +247,15 @@
 
     .aside-box {
         @apply 
-            w-10/12 
+            w-10/12
+            max-w-xs 
             h-60 
             mx-auto 
             mt-5 
             mb-7
             pt-1 
             shadow-box
+            xs:w-60
         ;
     }
 

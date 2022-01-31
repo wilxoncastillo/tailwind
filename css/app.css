@@ -803,6 +803,13 @@ body {
   line-height: 2rem;
 }
 
+@media (min-width: 640px) {
+  .article-head {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 .article-head a {
   font-weight: 600;
   --tw-text-opacity: 1;
@@ -849,10 +856,17 @@ body {
   margin-bottom: 1.75rem;
   height: 15rem;
   width: 83.333333%;
+  max-width: 20rem;
   padding-top: 0.25rem;
   --tw-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.3), 0px 1px 1px white inset, 0px -3px 1px rgba(0, 0, 0, 0.3) inset;
   --tw-shadow-colored: 0px 0px 1px var(--tw-shadow-color), 0px 3px 7px var(--tw-shadow-color), inset 0px 1px 1px var(--tw-shadow-color), inset 0px -3px 1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (max-width: 768px) {
+  .aside-box {
+    width: 15rem;
+  }
 }
 
 .login-icon {
@@ -1650,6 +1664,10 @@ body {
 
   .xs\:h-36 {
     height: 9rem;
+  }
+
+  .xs\:w-full {
+    width: 100%;
   }
 
   .xs\:flex-col {
