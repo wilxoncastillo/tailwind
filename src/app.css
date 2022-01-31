@@ -363,7 +363,7 @@
         ;
     }
 
-    .footer-title {
+    .footer-header {
         font-family: "BebasNeue";
         background: url('../img/pxgray.png'), white;
         @apply
@@ -377,6 +377,36 @@
             pt-2
 
         ;
+    }
+
+    .footer-menu {
+        @apply
+            text-left m-5 text-2xl;
+    }
+
+    .footer-menu li {
+        @apply
+            mt-3
+            p-1
+            border-b-2
+            border-gray-300
+            transition
+            duration-300
+        ;
+
+    }
+
+    .footer-menu a {
+        @apply
+            block
+            h-10
+            transition
+            duration-300
+            text-azul-claro
+            hover:text-white
+
+        ;    
+
     }
 
 
