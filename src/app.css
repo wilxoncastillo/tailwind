@@ -250,7 +250,7 @@
             h-60 
             mx-auto 
             mt-5 
-            mb-7 
+            mb-7
             pt-1 
             shadow-box
         ;
@@ -287,6 +287,36 @@
             focus:outline-none 
             focus:text-gray-600
         ;
+    }
+
+    .login-buttom {
+        @apply
+            trebuchet 
+            w-24 
+            h-8 
+            mt-5 
+            ml-5 
+            mb-5 
+            text-center 
+            text-white
+            text-base 
+            font-light 
+            border 
+            border-blue-900 
+            bg-gradient-to-b 
+            from-azul-claro 
+            to-blue-800 
+            transition 
+            duration-300 
+            rounded-none 
+            cursor-pointer 
+            hover:shadow-lg
+        ;
+    }
+
+    .login-link {
+        @apply
+        block ml-4 text-sm text-gray-500 hover:underline hover:text-blue-900;
     }
 
 
