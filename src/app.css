@@ -351,6 +351,34 @@
         ;
     }
 
+    .footer-box {
+        @apply
+           trebuchet
+           flex-1
+           w-80
+           h-96
+           m-10
+           text-center
+           text-white 
+        ;
+    }
+
+    .footer-title {
+        font-family: "BebasNeue";
+        background: url('../img/pxgray.png'), white;
+        @apply
+            tracking-wide
+            text-center
+            text-4xl
+            text-black
+            rounded-md
+            p-1.5
+            mb-4
+            pt-2
+
+        ;
+    }
+
 
     /* fin style card */
 }
